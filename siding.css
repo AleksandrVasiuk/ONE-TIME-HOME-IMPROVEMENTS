@@ -119,6 +119,9 @@ body {
     }
 }
 @media (max-width: 1200px) {
+    .isBgBlured {
+        height: 100%;
+    }
     .siding {
         padding-top: 25px;
     }

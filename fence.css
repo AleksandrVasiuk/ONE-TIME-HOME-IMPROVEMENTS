@@ -118,6 +118,9 @@ body {
     }
 }
 @media (max-width: 1200px) {
+    .isBgBlured {
+        height: 100%;
+    }
     .fence {
         padding-top: 25px;
     }

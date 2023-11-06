@@ -129,6 +129,9 @@ body {
     }
 }
 @media (max-width: 1200px) {
+    .isBgBlured {
+        height: 100%;
+    }
     .frame {
         padding-top: 25px;
     }
