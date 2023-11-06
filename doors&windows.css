@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("./img/img/front_window.jpeg") no-repeat center center / cover;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.isBgBlured {
+    backdrop-filter: blur(10px);
+    height: 700px;
+}
+
+.isBlured {
+    filter: blur(10px)
+}
+
+.doors_windows {
+    text-align: center;
+}
+
+.doors_windows h2 {
+    font-size: 20px;
+    color: azure;
+    display: inline;
+	text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+	padding: 0 10px 0 0;
+}
+.doors_windows ul img {
+    height: 300px;
+    max-width: 350px;
+ }
+
+ .doors_windows ul {
+    display: flex;
+    max-width: 900px;
+    margin: 113px auto;
+    justify-content: space-between;
+ }
+
+ .doors_windows li:nth-child(1):hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+ }
+
+ .doors_windows li:nth-child(2):hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+
+ .doors_windows li:nth-child(3):hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+    
+ }
+ 
+.contact {
+    color: azure;
+    max-width: 200px;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-transform: none;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.contact_1 {
+    display: flex;
+}
+
+.contact h5 {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact h5:after {
+    display: block;
+	position: absolute;
+    height: 2px;
+    background-color: white;
+    content: "";
+}
+.contact h5:hover:after,
+.contact h5:focus:after {
+	width: 100%;
+}
+
+@media (max-width: 1400px)  {
+    .doors_windows ul {
+        margin: 0 100px;
+    }
+}
+@media (max-width: 1200px) {
+    .doors_windows {
+        padding-top: 25px;
+    }
+    .doors_windows ul {
+        flex-direction: column;
+        margin: 0 50px;
+    }
+    .doors_windows ul img {
+        height: 200px;
+        max-width: 250px;
+        padding: 10px 0;
+     }
+}

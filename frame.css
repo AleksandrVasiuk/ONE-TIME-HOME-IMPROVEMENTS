@@ -1,0 +1,138 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("./img/img/front_frame.jpg") no-repeat center center / cover;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+body img {
+    max-width: 100%;
+}
+
+.isBgBlured {
+    backdrop-filter: blur(10px);
+    height: 700px;
+}
+
+.isBlured {
+    filter: blur(10px)
+}
+
+.frame{
+    text-align: center;
+}
+
+.frame h2 {
+    font-size: 20px;
+    color: azure;
+    display: inline;
+	text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+	padding: 0 10px 0 0;
+}
+.frame ul img {
+    height: 250px;
+    max-width: 300px;
+ }
+
+ .frame ul {
+    display: flex;
+    max-width: 1100px;
+    margin: 170px auto;
+    justify-content: space-between;
+ }
+
+ .frame li:nth-child(1):hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+ }
+
+ .frame li:nth-child(2):hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+
+ .frame li:nth-child(3):hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+    
+ }
+ 
+.contact {
+    color: azure;
+    padding-top: 15px;
+    max-width: 200px;
+    margin-left: auto;
+    font-size: 20px;
+    text-transform: none;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.contact_1 {
+    display: flex;
+}
+
+.contact h5 {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact h5:after {
+    display: block;
+	position: absolute;
+    height: 2px;
+    background-color: white;
+    content: "";
+}
+.contact h5:hover:after,
+.contact h5:focus:after {
+	width: 100%;
+}
+
+@media (max-width: 1400px)  {
+    .frame ul {
+        margin: 0 100px;
+    }
+}
+@media (max-width: 1200px) {
+    .frame {
+        padding-top: 25px;
+    }
+    .frame ul {
+        flex-direction: column;
+        margin: 0 50px;
+    }
+    .frame ul img {
+        height: 200px;
+        max-width: 250px;
+        padding: 10px 0;
+     }
+}

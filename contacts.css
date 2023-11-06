@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("./img/img/front_contacts.jpg") no-repeat center center / cover;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+
+.contact {
+    color: azure;
+    margin: 300px 0 0 380px;
+    font-size: 30px;
+    text-transform: none;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.contact_1 {
+    display: flex;
+}
+
+.contact_2 {
+    display: flex;
+}
+
+.contact h5 {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline;
+	padding: 0 10px 0 0;
+	color: azure;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+
+.contact h5:after {
+    display: block;
+	position: absolute;
+    height: 2px;
+    background-color: white;
+    content: "";
+}
+.contact h5:hover:after,
+.contact h5:focus:after {
+	width: 100%;
+}
+@media (max-width:1200px) {
+    .contact {
+    font-size: 22px;
+    margin: 150px 0 0 150px;}
+}
+@media (max-width: 768px) {
+    .contact {
+        font-size: 14px;
+        margin: 75px 0 0 75px;
+    }
+    .contact img {
+        width: 15px;
+        height: 15px;
+        margin: 0 5px;
+    }
+}

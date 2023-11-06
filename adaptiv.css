@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+body {
+    padding-top: 25px;
+}
+.menu {
+/* флекс дерекшион указывает направление элементов в нутри родителя к которму был применен флекс */
+flex-direction: column;
+text-align: center;
+}
+header {
+    height: unset;
+}
+.block {
+    columns: 2;
+}
+.last_block {
+    padding-top: 20px;
+}
+.list {
+    font-size: 14px;
+    padding: 0 20px;
+}
+.project {
+    padding: 10px 0;
+}
+.contact {
+    margin-top: 40px;
+}
+}
