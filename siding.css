@@ -124,11 +124,11 @@ body {
     }
     .siding ul {
         flex-direction: column;
-        margin: 0 50px;
+        margin: 20px 50px;
     }
     .siding ul img {
-        height: 200px;
-        max-width: 250px;
+        height: 100px;
+        max-width: 150px;
         padding: 10px 0;
      }
 }
