@@ -132,16 +132,21 @@ body {
     .isBgBlured {
         height: 100%;
     }
-    .frame {
+    .last {
         padding-top: 25px;
     }
-    .frame ul {
+    .last ul {
         flex-direction: column;
         margin: 20px 50px;
     }
-    .frame ul img, video {
+    .last ul img {
         height: 100px;
-        max-width: 150px;
+        width: 150px;
         padding: 10px 0;
+     }
+     .last ul video {
+        height: 100px;
+        width: 120px;
+        margin: 10px 0;
      }
 }
