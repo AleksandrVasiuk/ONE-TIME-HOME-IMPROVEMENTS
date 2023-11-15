@@ -6,15 +6,32 @@ body {
 /* флекс дерекшион указывает направление элементов в нутри родителя к которму был применен флекс */
 flex-direction: column;
 text-align: center;
+gap: 10px;
 }
 header {
     height: unset;
 }
+
+.front{
+    padding-top: 20px;
+}
+
+.front h2 {
+    padding-bottom: 20px;
+}
+
 .block {
     columns: 2;
 }
+.menu_list {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0px;
+}
+
 .last_block {
-    padding-top: 20px;
+    padding-top: 0;
+    padding-left: 15px;
 }
 .list {
     font-size: 14px;
